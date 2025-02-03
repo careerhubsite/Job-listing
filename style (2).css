@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #0073e6, #005bb5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.job {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.application-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #0073e6;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #005bb5;
+    transform: scale(1.05);
+}
+
+.reviews {
+    text-align: center;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.review {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 65%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    border-left: 5px solid #0073e6;
+}
+
+.stars {
+    font-size: 10px;
+    color: #FFD700;
+    margin-bottom: 5px;
+}
+
+.review p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.review h4 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-style: italic;
+    color: #0073e6;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background: #444;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   object-fit: cover;
+    margin-bottom: 10px;
+}
